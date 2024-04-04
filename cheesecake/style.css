@@ -1,0 +1,154 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialized; 
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sobre { 
+    width: 19.93rem;
+    margin: 3.31rem auto;
+}
+
+:root { 
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 62.5%;
+}
+
+h1 { 
+    color: #A54328;
+    margin-bottom: 2.93rem;
+    height: 17.01px;
+    font-size: 28.34px;
+}
+
+
+p { 
+    margin-top: 2.92rem;
+    color: #A54328;
+}
+
+h3 { 
+    color: #A54328;
+}
+
+.ingredientes { 
+    width: 19.93rem;
+    margin: 0px auto;
+}
+
+strong{ 
+    font-size: 1.4rem;
+    margin-top: 3.31rem;
+    color: #A54328;
+}
+
+ul li {
+    color: #A54328;
+}
+
+ol li { 
+    color: #A54328;
+}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    border: 0;
+    font-size: 1.6rem;
+    max-width: 32rem;
+    margin-inline: auto;
+    box-sizing: content-box;
+    font-size: 14.17px;
+}
+
+button { 
+    padding: .8rem 1.2rem;
+    background-color: #A54328;
+    color: white;
+    border-radius: .6rem;
+    margin-top: 1.8rem;
+    text-align: center;
+    width: 10.89rem;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+
+h1 { 
+    text-align: center;
+}
+
+h1, h2 { 
+    line-height: clamp(3.6rem, 2vw + 1rem, 5rem)  ;
+    font-size: clamp(2.8rem, 3vw, 4rem);
+}
+
+img { 
+    width: 100%;
+    margin-block: 3.2rem;
+}
+
+h2 { 
+    margin-bottom: 3.2rem;
+}
+
+ul, ol { 
+    padding-left: 2.4rem;
+}
+
+ul { 
+    margin-bottom: 2.4rem;
+}
+
+.sobre { 
+    line-height: auto;
+    
+    width: 289px;
+}
+
+button:hover { 
+    background-color: #b5583f;
+}
+
+@media (min-width: 48.125rem) { 
+    main { 
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 16rem;
+        padding: 9rem 6rem;
+    }
+
+    main > div { 
+        flex: 1;
+        max-width: 50.0rem;
+    }
+
+    .recipe { 
+        max-width: 43.5rem;
+    }
+
+    .ingredientes { 
+        max-width: 52.5rem;
+        margin-left: 145px;
+    }
+
+    h1,h2 { 
+        font-size: 4rem;
+        line-height: 3rem;
+    }
+
+    p, li, strong{ 
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    button { 
+        padding: 1rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+}
